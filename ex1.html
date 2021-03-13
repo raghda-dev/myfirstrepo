@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>example1</title>
+    </head>
+    <body>
+        write some text: <input type="text" id="mytext" value="" onchange="copytext()">
+        <p id="copiedtext"></p>
+
+    </body>
+</html>
+
+
+<script>
+    function copytext(){
+        var myhtmltext = document.getElementById('mytext').value;
+         document.getElementById('copiedtext').innerHTML =myhtmltext;
+        console.log(myhtmltext);
+
+
+
+}
+
+</script>
