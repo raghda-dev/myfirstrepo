@@ -1,0 +1,11 @@
+{
+  "name": "first-nodejs-proj",
+  "version": "1.0.0",
+  "description": "this is a total sum js example",
+  "main": "total-sum.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
