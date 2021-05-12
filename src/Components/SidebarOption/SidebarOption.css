@@ -1,0 +1,27 @@
+.SidebarOption{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left:50px;
+}
+.SidebarOption > h2{
+    font-weight:750;
+    font-size:20px;
+    padding-left: 15px;
+    margin-top: 10px;
+
+
+}
+.SidebarOption:hover{
+    background-color: #e8f5fe;
+    border-radius: 30px;
+    color: #0a92f0;
+}
+.SidebarOption--active{
+    color: #0a92f0;
+    
+}
+
+.icon{
+    font-size:x-large;
+}

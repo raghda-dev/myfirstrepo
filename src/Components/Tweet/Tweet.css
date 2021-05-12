@@ -1,0 +1,57 @@
+.Tweet {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: .5px solid #E1E8ED;
+  padding-bottom: 10px;
+
+}
+.Tweet__body > img{
+  border-radius: 20px;
+  
+}
+
+.Tweet__footer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+
+}
+
+.Tweet__checkIcon{
+  font-size: 14px;
+  color:#18a1d6;
+  font-weight: 700;
+}
+
+.Tweet__username{
+  font-weight: 400;
+  font-size: 16px;
+  color: gray;
+}
+
+.Tweet__headerText >h3{
+  font-size: 16px;
+  margin-bottom: 5px;
+
+}
+.Tweet__headerText{
+  margin-top: -15px;
+}
+
+.Tweet__Description{
+  margin-bottom: 10px;
+  margin-top: -10px;
+  font-size: 15px;
+}
+
+.Tweet__body{
+  flex: .7;
+  padding: 10px;
+}
+
+.Tweet__avatarImage > img{
+  border-radius: 50px;
+  padding: 10px;
+  padding-right: 3px;
+
+}

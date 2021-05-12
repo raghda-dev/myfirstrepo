@@ -1,0 +1,28 @@
+
+.sidebar{
+    border-right: 1px solid #E1E8ED;
+    width: 310px;
+    padding-top: 20px;
+}
+.Sidebar__TweetButton{
+    background-color: #18a1d6;
+    border: none;
+    color: white;
+    font-weight: 900;
+    border-radius: 30px;
+    height: 50px;
+    margin-top: 20px;
+    width: 230px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.Sidebar__TweetButton:hover{
+    background-color:  #0085b8;
+}
+.Twitter-logo{
+    font-size: 30px;
+    margin-left: 54px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    color: #1DA1F2;
+}

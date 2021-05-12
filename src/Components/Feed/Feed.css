@@ -1,0 +1,31 @@
+.Feed{
+    flex: 0.58;
+    border-right: 1px solid #E1E8ED;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.Feed_header{
+ 
+   background-color: white;
+   border: 1px solid #E1E8ED;
+   padding: 10px 15px 3px;
+
+}
+
+.Feed::-webkit-scrollbar {
+    display: none;
+  }
+
+  .Feed {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  } 
+  
+
+.Feed_header>h2{
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 0px;
+    margin-left: 0;
+}
