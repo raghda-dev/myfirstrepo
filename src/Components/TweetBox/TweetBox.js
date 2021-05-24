@@ -1,41 +1,26 @@
 import React, { useState } from 'react'
 import './TweetBox.css'
+import {StoreContext} from '../../App.js'
+import { useObserver } from 'mobx-react';
 
 
 function TweetBox({ onCreate = () => {} }) {
-
+  const store = React.useContext(StoreContext);
 
   const [clicked, setClicked] = useState(false);
   const [tweets, setTweet] = useState('')
 
-
-
-
-  const updateItem = (prop, event, index) => {
-
-    
-    const old = tweets[index];
-    const updated = { ...old, [prop]: event.target.value }
-    const clone = [...tweets];
-    clone[index] = updated;
-    setTweet(clone);
   
-  }
-
-  
-
-  return (
+return useObserver(()=>(
     <div className="TweetBox">
-      <form>
-        {/*
-        {tweets.map((tweet, index) => 
-          key={tweets}
-        */}
+      <form 
+      onSubmit={e=>{
+        store.addTweet(tweets)
+      }} >
+ 
           <div  className="tweetBox__input">
             <input value={tweets}
-        
               onChange={(e) => setTweet(e.target.value)}
-   
               placeholder="What's happening?" type="text" className="no-outline">
             </input>
 
@@ -43,11 +28,7 @@ function TweetBox({ onCreate = () => {} }) {
         {tweets.length >0?
           <button onClick={(event) => {
             event.preventDefault();
-
-           // setPost(tweets);
-
             onCreate(tweets);
-            console.log(onCreate(tweets))
             setTweet('')
             setClicked(true)
           }}
@@ -58,6 +39,7 @@ function TweetBox({ onCreate = () => {} }) {
       </form>
 
     </div>
-  );
+  ));
+  
 }
 export default TweetBox

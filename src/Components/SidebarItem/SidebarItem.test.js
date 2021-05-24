@@ -1,6 +1,6 @@
 import React from "react";
 import { shallow } from "enzyme";
-import SidebarOption from "./SidebarOption";
+import SidebarOption from "./SidebarItem";
 
 describe("SidebarOption", () => {
   test("matches snapshot", () => {
