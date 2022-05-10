@@ -1,0 +1,138 @@
+@import url('./footer.css');
+@import url('navbar.css');
+body{
+    margin: 0;
+    background-image: url('./Images/f1256995107c1fe02af7f392a3dd2f46.jpeg');
+    background-size:100% 141.4em;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    
+   
+}
+
+  /*CCCCCCCCCCEEEEEEENNNNNNNTTTTTTTTTEEEEEEEEERRRRRRRRRR*/
+
+  .__Back__Ground{
+    background-image: url('./Images/philipp-deus-ymeYzNZGUFg-unsplash.jpg');
+    background-size:95% 150em;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: .9; 
+    border-radius: 2em;
+    margin-top:5px;
+  }
+  
+
+  .__Bars__Catagories{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    opacity: unset;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items:center;
+    margin-top: -170px;
+    
+  }
+  .__Bars__Catagories img{
+    opacity:unset;
+   
+  }
+  .__Bars__Catagories div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #3f301d;
+    color: white;
+    height: 300px;
+    width: 300px;
+    opacity:unset;
+    margin-right: 5px;
+    font-size: large;
+    
+  }
+
+  .__Bars__Catagories div:hover{
+    background-color: #D2691E;
+  }
+
+ 
+.__Headers{
+  color: white;
+  position: relative;
+  left: 10%;
+  top: -150px;
+  /*border: 1px solid red; */
+  height: 30em;
+  width: 30%;
+  font-weight: 700;
+  filter: drop-shadow(8px 8px 10px gray);
+
+}
+
+.__Headers p{
+  margin-bottom: 80px;
+  font-size: large;
+  
+}
+
+
+
+.__Headers h4{
+  color: #AD0000;
+  font-size: xx-large;
+}
+
+.__PopCorn{
+  background-color: white;
+  position: relative;
+  left:5%;
+  top:25px;
+  width: 90%;
+  height: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.__PopCorn div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 200px;
+  color:#AD0000;
+}
+
+.__PopCorn div button{
+  width:200px;
+  height: 40px;
+  background-color:#D2691E;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  
+}
+
+.__PopCorn div button:hover{
+  background-color: #CD853F;
+}
+button a{
+
+  text-decoration: none;
+  color: white;
+  font-size:medium;
+
+}
+
+.__IceCream{
+  position: relative;
+  left: 5%;
+}
+
+.__main__Img{
+  position: relative;
+  left: 60%;
+  top: 220px;
+  filter: drop-shadow(8px 8px 10px gray);
+}

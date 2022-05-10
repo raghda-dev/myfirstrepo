@@ -1,0 +1,159 @@
+@import url(navbar.css);
+@import url(footer.css);
+
+
+
+
+body{
+    margin: 0;
+    background-image: url('./Images/contact/back.png');
+    background-size:100% 100em;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    
+   
+}
+
+.__Back__Ground{
+    background-image: url('./Images/philipp-deus-ymeYzNZGUFg-unsplash.jpg'); 
+    background-size:95% 100em;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: .96; 
+    border-radius: 2em;
+  
+  }
+
+
+.center{
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5em;
+    margin-top: 3em;
+    color: white;
+
+    
+}
+
+.center form{
+
+    width: 60vw;
+    height: 60em;
+    padding: 3em;
+    position: relative;
+    top: 100px;
+    color: #1C2368;
+    
+    
+}
+
+
+form p{
+
+    color: #AD0000;
+    width: 40em;
+}
+
+
+.__Container{
+
+    display: flex;
+    flex-direction: column;
+    height: 60em;
+    align-items: center;
+    width: 60em;
+    position: relative;
+    top: 20px;
+    left: -60px;
+    background-color: white;
+    border: 3px solid #AD0000;
+    filter: drop-shadow(7px 7px 9px #AD0000);
+    border-radius: 25px 0 25px 0;
+}
+
+
+select{
+    height: 40px;
+    width: 50em;
+    border: 3px solid #AD0000;
+}
+
+input[name = 'name']{
+
+    width: 23em;
+    height: 40px;
+    border: 3px solid #AD0000;
+}
+
+input[name = 'email']{
+
+    width: 50em;
+    height: 40px;
+    border: 3px solid #AD0000;
+}
+
+.__Name{
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 42em;
+}
+
+.__Name div{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80px;
+    
+}
+
+.__Container h2{
+    position: relative;
+    left: -170px;
+    top: 20px;
+}
+
+textarea{
+    width: 50em;
+    height: 10em;
+    border: #AD0000 3px solid;
+}
+
+.__Email{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.__Subject{
+    display: flex;
+    flex-direction: column;
+}
+
+.__Description{
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+button{
+    width: 150px;
+    background-color:#1C2368;
+    color: white;
+    height: 40px;
+    font-weight: 600;
+    border: none;
+    position: relative;
+    left: 20em;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover{
+    opacity: .9;
+}

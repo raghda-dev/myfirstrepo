@@ -1,0 +1,171 @@
+@import url("footer.css");
+@import url("navbar.css");
+
+
+body{
+    margin: 0;
+    background-image: url('./Images/main.png');
+    background-size:100% 80em;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    
+   
+}
+
+.__Back__Ground{
+    background-image: url('./Images/philipp-deus-ymeYzNZGUFg-unsplash.jpg');
+    background-size:95% 120em;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: .9; 
+    border-radius: 2em;
+  
+  }
+
+  .__PageAlighns{
+ 
+    overflow-x: scroll;
+      width: 60em;
+      height: 120vh;
+      position: relative;
+      left: 20%;
+  }
+
+  .__PageAlighns::-webkit-scrollbar {
+    display: none;
+  }
+
+  .__PageAlighns {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  } 
+
+  .__OutHeaders h2{
+     
+    color: white;
+    margin-top: 120px;
+    filter: drop-shadow(10px 10px 12px hsl(203, 45%, 81%));
+    position: relative;
+    left: 20%;
+    top: 100px;
+    font-weight: 700;
+    font-size:x-large;
+
+    
+  }
+  .__OutHeaders h3{
+
+    color: #AD0000;
+    filter: drop-shadow(10px 10px 12px gray);
+    position: relative;
+    left: 20%;
+    top: 120px;
+    font-weight: 900;
+    font-size:x-large;
+}
+
+  .__Products{
+    display: flex;
+    flex-direction: row;
+      position: relative;
+    /*  right: 50%; */
+      top: 150px;
+      width: 320em;
+      height: 70vh;
+
+  }
+
+  .__Products #__OneProduct{
+
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+    justify-content:start;
+    background-color: white;
+    border-radius: 9px 0px;
+    border: .5px solid #AD0000;
+    width: 41em;
+    filter: drop-shadow(7px 7px 9px #AD0000);
+   
+  }
+
+
+  .__Products img{
+    transform: rotate(90deg);
+    object-fit: contain;
+    
+
+  }
+
+  #__Keep{
+
+    transform: rotate(0deg);
+ 
+
+  }
+
+  .__Products p{
+       color: #AD0000;
+       font-weight: 540;
+       width: 300px;
+  
+  }
+
+  .__Products #__Buttons{
+
+    display: flex;
+    margin-top: 150px;
+   
+
+  }
+  .__Products div button{
+
+    width: 140px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 9px 0px;
+    background-color: white;
+    border:3px solid #AD0000;
+    font-weight: 800;
+    margin-top: -80px;
+
+
+  }
+
+  .__Products div button:hover{
+    cursor: pointer;
+    transition: 2ms;
+    filter: drop-shadow(8px 8px 10px #1C2368);
+
+  }
+  .__Products div button a{
+        
+    text-decoration: none;
+    color: #1C2368;
+  }
+
+
+
+  .__HeadButtons{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: fit-content;
+    margin-right: 10px;
+    height: 550px;
+    margin-left: 10px;
+    position: relative;
+    top: 100px;
+
+  }
+
+  .__HeadButtons h2{
+    color: #1C2368;
+    filter: drop-shadow(8px 8px 10px #1C2368);
+    width: 300px;
+    position: relative;
+    left: 0px;
+    
+  }

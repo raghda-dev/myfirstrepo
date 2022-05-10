@@ -1,0 +1,49 @@
+ul ul {
+    display: none;
+    list-style: none;
+    background-color: white;
+    
+}
+ul ul li a{
+  color: #AD0000;
+}
+
+ul li:hover ul {
+    display: block;
+    transition: 3ms;
+}
+  
+.nav__links{
+  position:relative;
+  left:20%;
+  top: 45px;
+  width: 50%;
+  height: 20px;
+  display: flex;
+  list-style: none;
+  justify-content:space-around;
+  justify-items:center;
+  font-weight: 1000;
+  font-size: large;
+  size: 6em;
+  cursor: pointer;
+}
+ul li{
+  color: white;
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+#search-btn{
+  color: white;
+}
+
+#logo{
+  position: relative;
+  right: 140%;
+  top:-30px;
+  
+}

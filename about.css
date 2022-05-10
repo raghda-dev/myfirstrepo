@@ -1,0 +1,63 @@
+@import url("footer.css");
+@import url("navbar.css");
+
+
+body{
+    margin: 0;
+    background-image: url('./Images/Snickers\ Website\ About\ Story\ 1-1.jpg');
+    background-size:100% 120em;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+   
+}
+
+.__Back__Ground{
+    background-image: url('./Images/philipp-deus-ymeYzNZGUFg-unsplash.jpg');
+    background-size:95% 145em;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: .9; 
+    border-radius: 2em;
+  
+  }
+
+  button a{
+      text-decoration: none;
+  }
+  
+  .__WhiteP{
+      color: white;
+      
+  }
+ .__RedP{
+    color:#AD0000;
+ }
+
+ p {
+     font-size:x-large;
+     font-weight: 700;
+     width: 40%;
+   /*  position: relative;
+     left: 50%;
+     top: 100px;
+     */
+ }
+
+ .__Paragraphs{
+     margin-top: 100px;
+ }
+.__Paragraphs div{
+    display: flex;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+    filter: drop-shadow(8px 8px 10px gray);
+   /* border: 1px solid red;  */
+}
+
+
+hr{
+    width: 40%;
+    filter: drop-shadow(8px 8px 10px gray);
+}
